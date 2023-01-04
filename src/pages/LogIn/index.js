@@ -90,12 +90,16 @@ const LogInPage = () => {
               labelText="Email"
               defaultText=""
             ></FloatingInput>
-            <Column className="flex flex-col items-center justify-start sm:mt-[12px] md:mt-[16px] mt-[24px] sm:mx-[0] sm:px-[0] rounded-radius5 sm:w-[100%] w-[89%]">
-              <Passwordform
-                className="bg-white_A700 border-2 border-bluegray_600_26 border-solid h-[50px] hidden md:p-[11px] sm:p-[15px] p-[16px] relative rounded-radius5 w-[100%]"
-                Passwordtext="Password"
-              />
-            </Column>
+            <FloatingInput
+              className="bg-transparent placeholder:bg-white_A700 border-0 font-normal placeholder:left-[16px] not-italic text-[14px] placeholder:text-bluegray_600_90 text-bluegray_600_90 placeholder:top-[0] top-[0] w-[100%]"
+              type="password"
+              name="Inputfield"
+              labelClasses="bg-white_A700 left-[16px] top-[0] text-bluegray_600_90"
+              focusedClasses="translate-y-[17px] scale-[1]"
+              wrapperClasses="w-[89%] mt-[60px] sm:w-[100%] sm:mx-[0] top-[0]"
+              labelText="Password"
+              defaultText=""
+            ></FloatingInput>
             <Text
               className="font-semibold ml-[1px] sm:mt-[12px] md:mt-[16px] mt-[24px] text-cyan_400 md:tracking-ls1 sm:tracking-ls1 tracking-ls12000000000000002 uppercase w-[auto]"
               variant="body1"
