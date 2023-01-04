@@ -8,9 +8,11 @@ import { List } from "./List";
 import { Row } from "./Row";
 import { Stack } from "./Stack";
 import { Text } from "./Text";
-import { Input } from "./Input";
+import { FloatingInput } from "./FloatingInput";
 import { Button } from "./Button";
 import { SelectBox } from "./SelectBox";
+import { Input } from "./Input";
+import { ProtectedRoute } from "./ProtectedRoute";
 export {
   Column,
   Datepicker,
@@ -22,7 +24,9 @@ export {
   Row,
   Stack,
   Text,
-  Input,
+  FloatingInput,
   Button,
   SelectBox,
+  Input,
+  ProtectedRoute,
 };
