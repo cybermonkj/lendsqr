@@ -1,4 +1,5 @@
 import React from "react";
+import { tokens, components } from 'react-ui/themes/base'
 
 import {
   Column,
@@ -43,6 +44,23 @@ const LogInPage = () => {
     win.focus();
   }
 
+          // overwrite Input styles
+        components.Input = {
+          sizes: { medium: 10 }, // medium is default size
+          fontSize: 4,
+          paddingX: 2,
+          border: '2px solid',
+          borderColor: 'black',
+          '::placeholder': {
+            color: 'black'
+          },
+          ':focus': {
+            outline: 'none',
+            borderColor: 'lightblue'
+          }
+        }
+
+
   return (
     <>
       <Column className="bg-white_A700 flex flex-col font-avenirnext items-end justify-start mx-[auto] sm:pb-[2px] md:pb-[3px] pb-[5px] sm:pl-[2px] md:pl-[3px] pl-[5px] w-[100%]">
@@ -80,8 +98,12 @@ const LogInPage = () => {
             >
               Enter details to login.
             </Text>
+            <ThemeProvider tokens={tokens} components={components}>
             <input type="text" placeholder="Email" />
+     
             <input type="password" defaultValue="super_secret_password" />
+            </ThemeProvider>
+
             <Text
               className="font-semibold ml-[1px] sm:mt-[12px] md:mt-[16px] mt-[24px] text-cyan_400 md:tracking-ls1 sm:tracking-ls1 tracking-ls12000000000000002 uppercase w-[auto]"
               variant="body1"
