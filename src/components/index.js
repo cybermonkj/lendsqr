@@ -9,9 +9,9 @@ import { Row } from "./Row";
 import { Stack } from "./Stack";
 import { Text } from "./Text";
 import { FloatingInput } from "./FloatingInput";
+import { Input } from "./Input";
 import { Button } from "./Button";
 import { SelectBox } from "./SelectBox";
-import { Input } from "./Input";
 import { ProtectedRoute } from "./ProtectedRoute";
 export {
   Column,
@@ -25,8 +25,8 @@ export {
   Stack,
   Text,
   FloatingInput,
+  Input,
   Button,
   SelectBox,
-  Input,
   ProtectedRoute,
 };

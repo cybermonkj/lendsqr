@@ -14,7 +14,7 @@ const variants = {
     "bg-white_A700_6c border border-indigo_800_6c border-solid",
 };
 const shapes = { RoundedBorder8: "rounded-radius8" };
-const sizes = { sm: "p-[12px] sm:p-[6px] md:p-[8px]", md: "pb-[1px]" };
+const sizes = { sm: "p-[12px] sm:p-[6px] md:p-[8px]" };
 
 const SelectBox = React.forwardRef(
   (
@@ -146,7 +146,7 @@ SelectBox.propTypes = {
   value: PropTypes.string,
   shape: PropTypes.oneOf(["RoundedBorder8"]),
   variant: PropTypes.oneOf(["OutlineIndigo8006c"]),
-  size: PropTypes.oneOf(["sm", "md"]),
+  size: PropTypes.oneOf(["sm"]),
 };
 SelectBox.defaultProps = {
   placeholder: "Select",
@@ -155,8 +155,8 @@ SelectBox.defaultProps = {
   placeholderClassName: "",
   isMulti: false,
   value: "",
-  shape: "RoundedBorder8",
-  variant: "OutlineIndigo8006c",
+  shape: "",
+  variant: "",
   size: "",
   options: selectOptions,
   onChange: () => {},

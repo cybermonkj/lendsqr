@@ -9,7 +9,7 @@ const DashboardSidebar = (props) => {
         <Column className="flex flex-col justify-start sm:ml-[15px] md:ml-[20px] ml-[30px] sm:mr-[25px] md:mr-[32px] mr-[47px] sm:mt-[10px] md:mt-[13px] mt-[19px] sm:w-[100%] w-[73%]">
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start justify-between w-[100%]">
             <Img
-              src="images/img_trash.svg"
+              src="defaultNoData.png"
               className="md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mb-[2px] mt-[1px] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="trash"
             />
@@ -24,7 +24,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start sm:mt-[27px] md:mt-[35px] mt-[52px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[54%]">
             <Img
-              src="images/img_home.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] my-[2px] w-[15%]"
               alt="home"
             />
@@ -37,11 +37,11 @@ const DashboardSidebar = (props) => {
           </Text>
         </Column>
         <Column className="flex flex-col justify-start mt-[10px] sm:mt-[5px] md:mt-[6px] w-[100%]">
-          <Row className="bg-cyan_400_5f flex flex-row md:flex-wrap sm:flex-wrap items-center md:pr-[125px] sm:pr-[15px] pr-[183px] w-[100%]">
+          <Row className="bg-colors flex flex-row md:flex-wrap sm:flex-wrap items-center md:pr-[125px] sm:pr-[15px] pr-[183px] w-[100%]">
             <Line className="bg-cyan_400 sm:h-[22px] md:h-[28px] h-[40px] w-[3px]" />
             <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-center justify-center mb-[11px] md:mb-[7px] md:ml-[18px] ml-[27px] mt-[10px] md:mt-[6px] sm:mx-[0] sm:my-[5px] sm:px-[0] sm:w-[100%] w-[70%]">
               <Img
-                src="images/img_user_12X16.svg"
+                src="defaultNoData.png"
                 className="flex-shrink-0 max-w-[100%] my-[3px] w-[23%]"
                 alt="user Two"
               />
@@ -52,7 +52,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-center md:ml-[20px] ml-[30px] mr-[140px] md:mr-[96px] sm:mt-[10px] md:mt-[13px] mt-[20px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[40%]">
             <Img
-              src="images/img_user_1.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] my-[3px] w-[15%]"
               alt="user Three"
             />
@@ -62,7 +62,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] md:mr-[124px] mr-[181px] sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[26%]">
             <Img
-              src="images/img_trash_16X16.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mb-[2px] mt-[1px] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="trash One"
             />
@@ -72,7 +72,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[17px] ml-[26px] mr-[100px] md:mr-[68px] sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[56%]">
             <Img
-              src="images/img_handshakeregul.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] mb-[1px] mt-[3px] w-[13%]"
               alt="handshakeregul"
             />
@@ -82,7 +82,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] md:mr-[116px] mr-[169px] sm:mt-[17px] md:mt-[22px] mt-[32px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[31%]">
             <Img
-              src="images/img_piggybank1.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] my-[2px] w-[19%]"
               alt="piggybankOne"
             />
@@ -92,7 +92,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] mr-[112px] md:mr-[77px] sm:mt-[15px] md:mt-[19px] mt-[29px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[51%]">
             <Img
-              src="images/img_reply.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] w-[13%]"
               alt="reply"
             />
@@ -102,7 +102,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-center md:ml-[19px] ml-[29px] md:mr-[108px] mr-[158px] sm:mt-[15px] md:mt-[19px] mt-[29px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[34%]">
             <Img
-              src="images/img_user_2.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] my-[3px] w-[17%]"
               alt="user Four"
             />
@@ -112,7 +112,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-center md:ml-[19px] ml-[29px] md:mr-[121px] mr-[177px] sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[28%]">
             <Img
-              src="images/img_user_3.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] my-[3px] w-[21%]"
               alt="user Five"
             />
@@ -125,7 +125,7 @@ const DashboardSidebar = (props) => {
           </Text>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] mr-[130px] md:mr-[89px] sm:mt-[10px] md:mt-[13px] mt-[20px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[44%]">
             <Img
-              src="images/img_trash.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mb-[1px] mt-[2px] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="trash Two"
             />
@@ -135,7 +135,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[18px] ml-[27px] mr-[115px] md:mr-[79px] sm:mt-[15px] md:mt-[20px] mt-[30px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[50%]">
             <Img
-              src="images/img_reply.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] w-[13%]"
               alt="reply One"
             />
@@ -145,7 +145,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] md:mr-[64px] mr-[94px] sm:mt-[15px] md:mt-[19px] mt-[29px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[57%]">
             <Img
-              src="images/img_home_16X16.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mb-[2px] mt-[1px] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="home One"
             />
@@ -155,7 +155,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] md:mr-[61px] mr-[90px] sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[58%]">
             <Img
-              src="images/img_globe.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mb-[1px] mt-[2px] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="globe"
             />
@@ -165,7 +165,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] mr-[128px] md:mr-[88px] sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[45%]">
             <Img
-              src="images/img_bookmark.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] mt-[1px] w-[13%]"
               alt="bookmark"
             />
@@ -175,7 +175,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] md:mr-[111px] mr-[162px] sm:mt-[17px] md:mt-[22px] mt-[32px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[33%]">
             <Img
-              src="images/img_reply_16X16.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mt-[3px] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="reply Two"
             />
@@ -185,7 +185,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-center md:ml-[19px] ml-[29px] mr-[102px] md:mr-[70px] sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[54%]">
             <Img
-              src="images/img_settings.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] my-[3px] w-[11%]"
               alt="settings"
             />
@@ -195,7 +195,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-center md:ml-[19px] ml-[29px] mr-[132px] md:mr-[90px] sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[44%]">
             <Img
-              src="images/img_bookmark_12X16.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] my-[3px] w-[14%]"
               alt="bookmark One"
             />
@@ -205,7 +205,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] md:mr-[114px] mr-[167px] sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[31%]">
             <Img
-              src="images/img_volume.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mt-[3px] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="volume"
             />
@@ -218,7 +218,7 @@ const DashboardSidebar = (props) => {
           </Text>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] mr-[135px] md:mr-[92px] sm:mt-[10px] md:mt-[13px] mt-[20px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[43%]">
             <Img
-              src="images/img_sort.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mb-[1px] mt-[2px] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="sort"
             />
@@ -228,7 +228,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] mr-[100px] md:mr-[68px] sm:mt-[16px] md:mt-[21px] mt-[31px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[55%]">
             <Img
-              src="images/img_badgepercent1.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mb-[2px] mt-[1px] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="badgepercentOne"
             />
@@ -238,7 +238,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] mr-[145px] md:mr-[99px] sm:mt-[15px] md:mt-[20px] mt-[30px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[39%]">
             <Img
-              src="images/img_clipboardlist.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 max-w-[100%] w-[15%]"
               alt="clipboardlist"
             />
@@ -248,7 +248,7 @@ const DashboardSidebar = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[20px] ml-[30px] md:mr-[55px] mr-[80px] sm:mt-[15px] md:mt-[19px] mt-[29px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[62%]">
             <Img
-              src="images/img_car.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mb-[1px] mt-[2px] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="car"
             />
@@ -260,7 +260,7 @@ const DashboardSidebar = (props) => {
             <Line className="bg-indigo_800_63 h-[1px] w-[100%]" />
             <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start md:ml-[19px] ml-[29px] md:mr-[119px] mr-[173px] sm:mt-[10px] md:mt-[13px] mt-[19px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[29%]">
               <Img
-                src="images/img_download.svg"
+                src="defaultNoData.png"
                 className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] mb-[1px] mt-[2px] md:w-[11px] w-[16px] sm:w-[8px]"
                 alt="download"
               />

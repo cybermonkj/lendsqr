@@ -325,10 +325,10 @@ const Userlist = (props) => {
             </Column>
           </Stack>
         </Column>
-        <Column className="absolute bg-white_A700 border border-bluegray_600_0a border-solid flex flex-col justify-start md:p-[13px] sm:p-[15px] p-[20px] right-[0] rounded-radius4 shadow-bs1 top-[29%] sm:w-[100%] w-[18%]">
+        <Column className="absolute bg-white_A700 border border-colors2 border-solid flex flex-col justify-start md:p-[13px] sm:p-[15px] p-[20px] right-[0] rounded-radius4 shadow-bs1 top-[29%] sm:w-[100%] w-[18%]">
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-center ml-[1px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[78%]">
             <Img
-              src="images/img_eye.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[12px] h-[16px] sm:h-[9px] max-w-[100%] md:w-[11px] w-[16px] sm:w-[8px]"
               alt="eye"
             />
@@ -338,7 +338,7 @@ const Userlist = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start sm:mt-[10px] md:mt-[13px] mt-[20px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[84%]">
             <Img
-              src="images/img_search_bluegray_600.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[10px] h-[14px] sm:h-[8px] max-w-[100%] mb-[2px] w-[14px] sm:w-[7px] md:w-[9px]"
               alt="search"
             />
@@ -348,7 +348,7 @@ const Userlist = (props) => {
           </Row>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start mb-[2px] sm:mt-[10px] md:mt-[13px] mt-[20px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[83%]">
             <Img
-              src="images/img_user_14X14.svg"
+              src="defaultNoData.png"
               className="flex-shrink-0 md:h-[10px] h-[14px] sm:h-[8px] max-w-[100%] mb-[2px] w-[14px] sm:w-[7px] md:w-[9px]"
               alt="user One"
             />
@@ -357,7 +357,7 @@ const Userlist = (props) => {
             </Text>
           </Row>
         </Column>
-        <Column className="absolute bg-white_A700 border border-bluegray_600_23 border-solid bottom-[0] flex flex-col items-center justify-start left-[1%] md:p-[13px] sm:p-[15px] p-[20px] rounded-radius4 shadow-bs1 sm:w-[100%] w-[26%]" />
+        <Column className="absolute bg-white_A700 border border-colors1 border-solid bottom-[0] flex flex-col items-center justify-start left-[1%] md:p-[13px] sm:p-[15px] p-[20px] rounded-radius4 shadow-bs1 sm:w-[100%] w-[26%]" />
       </Stack>
     </>
   );

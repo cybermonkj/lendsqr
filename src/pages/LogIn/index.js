@@ -6,7 +6,7 @@ import {
   Img,
   Text,
   FloatingInput,
-  Stack,
+  Input,
   Button,
 } from "components";
 import Passwordform from "components/Passwordform";
@@ -90,12 +90,11 @@ const LogInPage = () => {
               labelText="Email"
               defaultText=""
             ></FloatingInput>
-            <Column className="flex flex-col items-center justify-start sm:mt-[12px] md:mt-[16px] mt-[24px] sm:mx-[0] sm:px-[0] rounded-radius5 sm:w-[100%] w-[89%]">
-              <Passwordform
-                className="bg-white_A700 border-2 border-bluegray_600_26 border-solid h-[50px] hidden md:p-[11px] sm:p-[15px] p-[16px] relative rounded-radius5 w-[100%]"
-                Passwordtext="Password"
-              />
-            </Column>
+            <Passwordform
+              className="font-normal not-italic md:pl-[11px] pl-[16px] md:pr-[24px] pr-[35px] sm:px-[15px] md:py-[11px] py-[17px] sm:py-[9px] text-[14px] placeholder:text-bluegray_600_90 text-bluegray_600_90 w-[100%]"
+              type="password"
+              Passwordtext="undefined"
+            />
             <Text
               className="font-semibold ml-[1px] sm:mt-[12px] md:mt-[16px] mt-[24px] text-cyan_400 md:tracking-ls1 sm:tracking-ls1 tracking-ls12000000000000002 uppercase w-[auto]"
               variant="body1"

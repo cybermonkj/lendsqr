@@ -17,7 +17,9 @@ const Userpopup = (props) => {
             placeholder="Select"
             isSearchable={false}
             isMulti={false}
+            shape="RoundedBorder8"
             size="PaddingAll12"
+            variant="OutlineIndigo8006c"
             fontStyle="WorkSansRegular14"
           ></SelectBox>
           <Text className="font-medium font-worksans sm:mt-[10px] md:mt-[13px] mt-[20px] text-[14px] text-bluegray_600 w-[auto]">
@@ -54,7 +56,7 @@ const Userpopup = (props) => {
             placeholder="Date"
             suffix={
               <Img
-                src="images/img_calendar.svg"
+                src="defaultNoData.png"
                 className="ml-[35px] mr-[20px] sm:mr-[10px] sm:ml-[18px] sm:my-[6px] md:mr-[13px] md:ml-[24px] md:my-[8px] my-[12px]"
                 alt="calendar"
               />
@@ -87,7 +89,9 @@ const Userpopup = (props) => {
             placeholder="Select"
             isSearchable={false}
             isMulti={false}
+            shape="RoundedBorder8"
             size="PaddingAll12"
+            variant="OutlineIndigo8006c"
             fontStyle="WorkSansRegular14"
           ></SelectBox>
           <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-center sm:mt-[15px] md:mt-[20px] mt-[30px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[92%]">
