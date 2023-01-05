@@ -80,8 +80,8 @@ const LogInPage = () => {
             >
               Enter details to login.
             </Text>
-            {/* <input type="text" placeholder="Email" />
-            <input type="password" defaultValue="super_secret_password" /> */}
+            <input type="text" placeholder="Email" />
+            <input type="password" defaultValue="super_secret_password" />
             <Text
               className="font-semibold ml-[1px] sm:mt-[12px] md:mt-[16px] mt-[24px] text-cyan_400 md:tracking-ls1 sm:tracking-ls1 tracking-ls12000000000000002 uppercase w-[auto]"
               variant="body1"
