@@ -5,13 +5,12 @@ const Home = () => {
     <div className="navigation">
       <h1>Homepage</h1>
       <p className="headline">
-        This project is a Test for Lendsqr{" "}
-        <a href="https://www.lendsqr.com">lendsqr</a>. Quickly use below links
-        to navigate through all pages.
+        This project is a Test for {" "}
+        <a href="https://www.lendsqr.com"> Lendsqr</a>. by Joshua Anop Email: rolexy.inc@protonmail.com
       </p>
       <ul>
         <li>
-          <Link to="/login">LogIn</Link>
+          <Link to="/login">Loginn</Link>
         </li>
         <li>
           <Link to="/dashboard">Dashboard</Link>
