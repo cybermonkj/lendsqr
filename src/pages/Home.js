@@ -1,6 +1,5 @@
 import React from "react";
-import components  from 'react-ui'
-import tokens  from 'react-ui'
+
 
 import {
   Column,
@@ -37,29 +36,15 @@ const LogInPage = () => {
         toast.error("There was an error with the API");
       });
   }
-  function handleNavigate12() {
+  function skipTodash() {
     navigate("/dashboard");
   }
-  function handleNavigate13() {
+  function gotolendsqr() {
     const win = window.open("https://www.lendsqr.com/", "_blank");
     win.focus();
   }
 
-          // overwrite Input styles
-        components.Input = {
-          sizes: { medium: 10 }, // medium is default size
-          fontSize: 4,
-          paddingX: 2,
-          border: '2px solid',
-          borderColor: 'black',
-          '::placeholder': {
-            color: 'black'
-          },
-          ':focus': {
-            outline: 'none',
-            borderColor: 'lightblue'
-          }
-        }
+
 
 
   return (
@@ -75,7 +60,7 @@ const LogInPage = () => {
             <Img
               src="images/img_group.png"
               className="common-pointer max-w-[100%] sm:ml-[15px] md:ml-[20px] ml-[30px] w-[29%]"
-              onClick={handleNavigate13}
+              onClick={gotolendsqr}
               alt="Group"
             />
             <Img
@@ -113,7 +98,7 @@ const LogInPage = () => {
             </Text>
             <Button
               className="common-pointer cursor-pointer font-semibold md:mb-[126px] mb-[184px] sm:mb-[98px] min-w-[89%] sm:mt-[17px] md:mt-[22px] mt-[33px] text-[14px] text-center text-white_A700 md:tracking-ls1 sm:tracking-ls1 tracking-ls14000000000000001 uppercase w-[max-content]"
-              onClick={handleNavigate12}
+              onClick={skipTodash}
               shape="RoundedBorder8"
               size="lg"
               variant="FillCyan400"

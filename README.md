@@ -66,9 +66,6 @@ Setup your project by running the following commands:
 
 This file contains various environment variables that you can configure.
 
-**PORT** - Port to run your frontend on \
-**REACT_APP_GOOGLE_CLIENT_ID** - (Optional) Your Google Client ID
-
 ## Running the App
 
     npm start
@@ -191,34 +188,8 @@ Note, that normally you wouldn’t edit files in the `public` folder very often.
 
 If you need to dynamically update the page title based on the content, you can use the browser [`document.title`](https://developer.mozilla.org/en-US/docs/Web/API/Document/title) API. For more complex scenarios when you want to change the title from React components, you can use [React Helmet](https://github.com/nfl/react-helmet), a third party library.
 
-## Installing a Dependency
-
-The generated project includes React and ReactDOM as dependencies. It also includes a set of scripts used by Create React App as a development dependency. You may install other dependencies (for example, React Router) with `npm`:
-
-```sh
-npm install --save react-router
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn add react-router
-```
-
-This works for any library, not just `react-router`.
-
-## CRA User Guide
-
-You can find detailed instructions on using Create React App and many tips in [its documentation](https://facebook.github.io/create-react-app/).
-
-## How to Update to New Versions?
-
-Please refer to the [User Guide](https://facebook.github.io/create-react-app/docs/updating-to-new-releases) for this and other information.
 
 ## What’s Included?
-
-Your environment will have everything you need to build a modern single-page React app:
-
 - React, JSX, ES6, TypeScript and Flow syntax support.
 - Language extras beyond ES6 like the object spread operator.
 - Autoprefixed CSS, so you don’t need `-webkit-` or other prefixes.
@@ -227,5 +198,3 @@ Your environment will have everything you need to build a modern single-page Rea
 - A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.
 - An offline-first [service worker](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers) and a [web app manifest](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/), meeting all the [Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app) criteria. (_Note: Using the service worker is opt-in as of `react-scripts@2.0.0` and higher_)
 - Hassle-free updates for the above tools with a single dependency.
-
-The tradeoff is that **these tools are preconfigured to work in a specific way**. If your project needs more customization, you can ["eject"](https://facebook.github.io/create-react-app/docs/available-scripts#npm-run-eject) and customize it, but then you will need to maintain this configuration.
