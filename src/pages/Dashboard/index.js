@@ -12,13 +12,13 @@ const DashboardPage = () => {
     window.location.href =
       "https://docs.adjutor.io/introduction/what-is-adjutor";
   }
-  function handleNavigate5() {
+  function editUserProfile() {
     navigate("/usersgeneraldetails");
   }
-  function handleNavigate6() {
+  function gotToUserProfile() {
     navigate("/usersgeneraldetails");
   }
-  function handleNavigate7() {
+  function navigateTolendsqr() {
     window.location.href = "https://www.lendsqr.com/";
   }
   function handleNavigate8() {
@@ -49,7 +49,7 @@ const DashboardPage = () => {
                 />
                 <Row className="bg-white_A700_6c border border-indigo_800_6c border-solid flex flex-row md:flex-wrap sm:flex-wrap font-worksans items-center justify-center md:ml-[115px] ml-[168px] sm:mx-[0] my-[4px] md:pl-[13px] sm:pl-[15px] pl-[20px] rounded-radius8 sm:w-[100%] w-[30%]">
                   <Text
-                    className="font-normal not-italic pl-[px] text-bluegray_600_99 w-[200px]"
+                    className="font-normal not-italic text-bluegray_600_99 w-[auto]"
                     as="h6"
                     variant="h6"
                   >
