@@ -155,9 +155,9 @@ SelectBox.defaultProps = {
   placeholderClassName: "",
   isMulti: false,
   value: "",
-  shape: "",
-  variant: "",
-  size: "sm",
+  shape: "RoundedBorder8",
+  variant: "OutlineIndigo8006c",
+  size: "",
   options: selectOptions,
   onChange: () => {},
 };

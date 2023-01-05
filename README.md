@@ -15,14 +15,6 @@ We have detected common components and have generated possible variants of it. T
 
       npm run storybook
 
-# Design System
-
-All the designs have been generated with [Tailwind CSS](https://tailwindcss.com/).
-Find all the theme related configurations inside tailwind.config.js
-
-# Running the storybook
-
-We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, please follow the below steps:
 
 ## Install and Initializes
 
@@ -32,17 +24,6 @@ We have detected common components and have generated possible variants of it. T
 
       npm run storybook
 
-<div>
-  <h1 align="center">Getting Started with React Figma Web 🚀 </h1>
-  <strong>
-    Generated with ❤️ from DhiWise
-  </strong>
-  <p>
-    This is the documentation of React Figma Web.
-    It contains all the information you need to get started with
-    and make changes to your App
-  </p>
-</div>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -174,7 +155,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that DhiWise wouldn’t be useful if you can’t customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that lendsqr wouldn’t be useful if you can’t customize it when you are ready for it.
 
 ## Syntax Highlighting in the Editor
 

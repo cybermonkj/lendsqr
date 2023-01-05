@@ -9,18 +9,16 @@ const shapes = {
   icbCircleBorder20: "rounded-radius20",
 };
 const variants = {
-  FillBluegray6005f: "bg-bluegray_600_5f text-bluegray_600",
+  FillBluegray6005f: "bg-bluegray_600_5f",
   FillCyan400: "bg-cyan_400 text-white_A700",
-  FillIndigo80019: "bg-indigo_800_19 text-indigo_800",
-  FillAmber60063: "bg-amber_600_63 text-amber_600",
-  FillGreen5005f: "bg-green_500_5f text-green_500",
-  FillPinkA40063: "bg-pink_A400_63 text-pink_A400",
-  OutlineBluegray600:
-    "border border-bluegray_600 border-solid text-bluegray_600",
-  OutlineCyan400:
-    "bg-cyan_400 border border-cyan_400 border-solid text-white_A700",
   OutlinePinkA400: "border border-pink_A400 border-solid text-pink_A400",
-  OutlineCyan400_1: "border border-cyan_400 border-solid text-cyan_400",
+  OutlineCyan400: "border border-cyan_400 border-solid text-cyan_400",
+  OutlineBluegray600: "border border-bluegray_600 border-solid",
+  OutlineCyan400_1: "bg-cyan_400 border border-cyan_400 border-solid",
+  FillIndigo80019: "bg-indigo_800_19",
+  FillAmber60063: "bg-amber_600_63",
+  FillGreen5005f: "bg-green_500_5f",
+  FillPinkA40063: "bg-pink_A400_63",
   icbFillIndigo80019: "bg-indigo_800_19",
   icbFillPurpleA40063: "bg-purple_A400_63",
   icbFillDeeppurpleA40063: "bg-deep_purple_A400_63",
@@ -71,14 +69,14 @@ Button.propTypes = {
   variant: PropTypes.oneOf([
     "FillBluegray6005f",
     "FillCyan400",
+    "OutlinePinkA400",
+    "OutlineCyan400",
+    "OutlineBluegray600",
+    "OutlineCyan400_1",
     "FillIndigo80019",
     "FillAmber60063",
     "FillGreen5005f",
     "FillPinkA40063",
-    "OutlineBluegray600",
-    "OutlineCyan400",
-    "OutlinePinkA400",
-    "OutlineCyan400_1",
     "icbFillIndigo80019",
     "icbFillPurpleA40063",
     "icbFillDeeppurpleA40063",
@@ -86,11 +84,6 @@ Button.propTypes = {
   ]),
   size: PropTypes.oneOf(["sm", "md", "lg", "smIcn", "mdIcn"]),
 };
-Button.defaultProps = {
-  className: "",
-  shape: "CircleBorder15",
-  variant: "icbFillIndigo80019",
-  size: "sm",
-};
+Button.defaultProps = { className: "", shape: "", variant: "", size: "" };
 
 export { Button };

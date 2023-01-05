@@ -1,4 +1,5 @@
 import React from "react";
+import { ProtectedRoute } from "components";
 import Usersgeneraldetails from "pages/Usersgeneraldetails";
 import Usersshowingfilters from "pages/Usersshowingfilters";
 import Dashboard from "pages/Dashboard";
@@ -13,9 +14,18 @@ const ProjectRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/login" element={<LogIn />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/usersshowingfilters" element={<Usersshowingfilters />} />
-        <Route path="/usersgeneraldetails" element={<Usersgeneraldetails />} />
+        <Route
+          path="/dashboard"
+          element={<ProtectedRoute element={Dashboard} />}
+        />
+        <Route
+          path="/usersshowingfilters"
+          element={<ProtectedRoute element={Usersshowingfilters} />}
+        />
+        <Route
+          path="/usersgeneraldetails"
+          element={<ProtectedRoute element={Usersgeneraldetails} />}
+        />
       </Routes>
     </Router>
   );

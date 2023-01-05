@@ -5,17 +5,9 @@ import PropTypes from "prop-types";
 const variants = {
   OutlineIndigo8006c:
     "bg-white_A700_6c border border-indigo_800_6c border-solid",
-  OutlineBluegray60026:
-    "bg-white_A700 border-2 border-bluegray_600_26 border-solid",
 };
-const shapes = {
-  RoundedBorder8: "rounded-radius8",
-  RoundedBorder5: "rounded-radius5",
-};
-const sizes = {
-  sm: "p-[12px] sm:p-[6px] md:p-[8px]",
-  md: "md:p-[11px] p-[16px] sm:px-[15px] sm:py-[8px]",
-};
+const shapes = { RoundedBorder8: "rounded-radius8" };
+const sizes = { sm: "p-[12px] sm:p-[6px] md:p-[8px]" };
 
 const Input = React.forwardRef(
   (
@@ -68,9 +60,9 @@ Input.propTypes = {
   name: PropTypes.string,
   placeholder: PropTypes.string,
   type: PropTypes.string,
-  shape: PropTypes.oneOf(["RoundedBorder8", "RoundedBorder5"]),
-  variant: PropTypes.oneOf(["OutlineIndigo8006c", "OutlineBluegray60026"]),
-  size: PropTypes.oneOf(["sm", "md"]),
+  shape: PropTypes.oneOf(["RoundedBorder8"]),
+  variant: PropTypes.oneOf(["OutlineIndigo8006c"]),
+  size: PropTypes.oneOf(["sm"]),
 };
 Input.defaultProps = {
   wrapClassName: "",
@@ -78,9 +70,9 @@ Input.defaultProps = {
   name: "",
   placeholder: "",
   type: "text",
-  shape: "RoundedBorder8",
-  variant: "OutlineIndigo8006c",
-  size: "sm",
+  shape: "",
+  variant: "",
+  size: "",
 };
 
 export { Input };
