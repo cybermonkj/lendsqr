@@ -79,14 +79,14 @@ const DashboardPage = () => {
                 <Img
                   src="images/img_image4.png"
                   className="common-pointer sm:h-[26px] md:h-[34px] h-[48px] sm:ml-[15px] md:ml-[20px] ml-[30px] rounded-radius50 sm:w-[25px] md:w-[33px] w-[48px]"
-                  onClick={handleNavigate6}
+                  onClick={gotToUserProfile}
                   alt="imageFour"
                 />
                 <Text
                   className="common-pointer font-medium font-worksans ml-[10px] sm:ml-[5px] md:ml-[6px] text-indigo_800 w-[auto]"
                   as="h5"
                   variant="h5"
-                  onClick={handleNavigate5}
+                  onClick={gotToUserProfile}
                 >
                   Adedeji
                 </Text>
