@@ -21,16 +21,16 @@ const DashboardPage = () => {
   function navigateTolendsqr() {
     window.location.href = "https://www.lendsqr.com/";
   }
-  function handleNavigate8() {
+  function goToUserListFiltered() {
     navigate("/usersshowingfilters");
   }
-  function handleNavigate9() {
+  function goToUserListFiltered() {
     navigate("/usersshowingfilters");
   }
-  function handleNavigate10() {
+  function goToUserListFiltered() {
     navigate("/usersshowingfilters");
   }
-  function handleNavigate11() {
+  function goToUserListFiltered() {
     navigate("/usersshowingfilters");
   }
 
@@ -44,7 +44,7 @@ const DashboardPage = () => {
                 <Img
                   src="images/img_group.png"
                   className="common-pointer max-w-[100%] w-[11%]"
-                  onClick={handleNavigate7}
+                  onClick={goToUserListFiltered}
                   alt="logo"
                 />
                 <Row className="bg-white_A700_6c border border-indigo_800_6c border-solid flex flex-row md:flex-wrap sm:flex-wrap font-worksans items-center justify-center md:ml-[115px] ml-[168px] sm:mx-[0] my-[4px] md:pl-[13px] sm:pl-[15px] pl-[20px] rounded-radius8 sm:w-[100%] w-[30%]">
