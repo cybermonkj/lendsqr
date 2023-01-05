@@ -1,5 +1,5 @@
 import React from "react";
-import { tokens, components } from 'react-ui/themes/base'
+import { tokens, components } from 'react-ui'
 
 import {
   Column,
